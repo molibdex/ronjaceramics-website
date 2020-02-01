@@ -1,0 +1,157 @@
+
+body {
+  font-family: 'Lora';
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #E7E8EA;
+}
+
+ .logo {
+   width: 400px;
+   height: auto;
+   margin-top: 30px;
+
+ }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway';
+}
+
+p {
+  line-height: 1.75;
+}
+
+.text-faded {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+
+.bg-faded {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+#mainNav {
+  background-color: #E7E8EA;
+  font-family: 'Raleway';
+}
+
+#mainNav .navbar-brand {
+  color: black;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  color: #333333;
+  font-weight: 800;
+}
+
+#mainNav .navbar-nav .nav-item.active .nav-link {
+  color: black;
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 0.9rem;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: black;
+  }
+  #mainNav .navbar-nav .nav-item.active .nav-link:hover {
+    color: grey;
+  }
+}
+
+/***** HOME PAGE ****/
+@media (min-width: 768px) {
+.carousel-multi-item-2 .col-md-3 {
+float: left;
+width: 25%;
+max-width: 75%;
+margin-left: 85px;
+ } }
+
+.carousel-multi-item-2 .card img {
+border-radius: 2px; }
+
+
+
+/***** Footer *****/
+@media (max-width: 575px) {
+  .icon {
+    width: 20px;
+    height: auto;
+    margin-top: 30px;
+  }
+}
+
+ul {
+  list-style-type: none;
+ }
+.footer{
+    background: grey;
+    background: grey;
+    height: auto;
+    width: 100%;
+    position: sticky;
+
+}
+.icon{
+  width: 80%;
+  height: auto;
+  margin-top: 30px;
+}
+.author {
+    color: #ffffff;
+}
+.nopadding{
+   padding: 0 !important;
+   margin: 0 !important;
+
+}
+.head-foot a {
+    color:#ffffff;
+}
+.head-foot a:hover {
+    color: #333333;
+    text-decoration: none;
+}
+.head-foot p {
+    text-align: right;
+    margin-top: 3px;
+    color: #ffffff;
+}
+
+.head-foot p {
+    text-align: right;
+    margin-top: 3px;
+    font-family: 'Raleway';
+    color: #ffffff;
+    font-weight: 800;
+}
+.head-foot2 p {
+    color:#ffffff;
+    text-align: left;
+    margin-top: 3px;
+}
+.head-foot li a {
+    color:#ffffff;
+}
+.head-foot li a:hover {
+    color: #black;
+}
+.head-news a {
+    color: #333333;
+    text-decoration: none;
+}
+.head-news a:hover {
+    color: black ;
+}
+.line {
+    border-left:2px solid #ffffff;
+    height: 100px;
+    width: 0;
+    margin-top: 10px;
+}
