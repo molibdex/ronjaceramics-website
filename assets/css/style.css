@@ -41,9 +41,15 @@ p {
   background-color: rgba(255, 255, 255, 0.85);
 }
 
+.navbar-toggler-icon {
+  background: black;
+}
+
+
 #mainNav {
 
   font-family: 'Raleway';
+  padding-bottom: 0px;
 }
 
 #mainNav .navbar-brand {
@@ -64,7 +70,7 @@ p {
     font-size: 0.9rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: black;
+    color: #333333;
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
     color: grey;
@@ -109,7 +115,41 @@ border-radius: 2px; }
 
   }
 }
+/****** GALLERY ****/
+.gallery {
+ margin: 10px;
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+-webkit-column-width: 33%;
+-moz-column-width: 33%;
+column-width: 33%; }
+.gallery .pics {
+-webkit-transition: all 350ms ease;
+transition: all 350ms ease; }
 
+
+@media (max-width: 450px) {
+.gallery {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+-webkit-column-width: 100%;
+-moz-column-width: 100%;
+column-width: 100%;
+}
+}
+
+@media (max-width: 400px) {
+.btn.filter {
+padding-left: 1.1rem;
+padding-right: 1.1rem;
+}
+}
+
+.jumbotron {
+  background: #333333;
+}
 /***** Footer *****/
 @media (max-width: 575px) {
   img.smedia {
