@@ -88,13 +88,25 @@ border-radius: 2px; }
   margin-top: 20px;
 }
 
+@media (max-width: 575px) {
+  .card {
+    margin: 5px;
+    font-size: 15px;
+  }
+  .about {
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 5px;
+
+  }
+}
+
 /***** Footer *****/
 @media (max-width: 575px) {
-  .icon {
-    width: 20px;
-    height: auto;
-    margin-top: 30px;
-  }
+  img.smedia {
+    width: 50px;
+    display: block;
+   }
 }
 
 ul {
