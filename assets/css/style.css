@@ -76,7 +76,17 @@ margin-left: 85px;
 .carousel-multi-item-2 .card img {
 border-radius: 2px; }
 
-
+/**** ABOUT US ****/
+.card {
+  margin: 50px;
+  background: none;
+  border: none;
+}
+.about {
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 20px;
+}
 
 /***** Footer *****/
 @media (max-width: 575px) {
