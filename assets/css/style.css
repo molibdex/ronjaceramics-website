@@ -3,11 +3,18 @@ body {
   font-family: 'Lora';
   background-attachment: fixed;
   background-position: center;
-  background-color: #E7E8EA;
+
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
+background: #E7E8EA; /* Old browsers */
+background: -moz-linear-gradient(top,  #E7E8EA 0%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #E7E8EA 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #E7E8EA 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E7E8EA', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
 }
 
  .logo {
-   width: 400px;
+   width: 300px;
    height: auto;
    margin-top: 30px;
 
@@ -35,7 +42,7 @@ p {
 }
 
 #mainNav {
-  background-color: #E7E8EA;
+
   font-family: 'Raleway';
 }
 
@@ -77,15 +84,17 @@ margin-left: 85px;
 border-radius: 2px; }
 
 /**** ABOUT US ****/
-.card {
-  margin: 50px;
+.cardo {
+  padding: 0 !important;
+  margin: 150px;
+
   background: none;
   border: none;
 }
 .about {
   display: inline-block;
   margin-right: 20px;
-  margin-top: 20px;
+  margin-top: 45px;
 }
 
 @media (max-width: 575px) {
@@ -113,8 +122,7 @@ ul {
   list-style-type: none;
  }
 .footer{
-    background: grey;
-    background: grey;
+
     height: auto;
     width: 100%;
     position: sticky;
@@ -134,7 +142,7 @@ ul {
 
 }
 .head-foot a {
-    color:#ffffff;
+    color:#333333;
 }
 .head-foot a:hover {
     color: #333333;
@@ -143,23 +151,23 @@ ul {
 .head-foot p {
     text-align: right;
     margin-top: 3px;
-    color: #ffffff;
+    color: #333333;
 }
 
 .head-foot p {
     text-align: right;
     margin-top: 3px;
     font-family: 'Raleway';
-    color: #ffffff;
+    color: #333333;
     font-weight: 800;
 }
 .head-foot2 p {
-    color:#ffffff;
+    color:#333333;
     text-align: left;
     margin-top: 3px;
 }
 .head-foot li a {
-    color:#ffffff;
+    color:#333333;
 }
 .head-foot li a:hover {
     color: #black;
@@ -169,11 +177,5 @@ ul {
     text-decoration: none;
 }
 .head-news a:hover {
-    color: black ;
-}
-.line {
-    border-left:2px solid #ffffff;
-    height: 100px;
-    width: 0;
-    margin-top: 10px;
+    color: #E7E8EA ;
 }
