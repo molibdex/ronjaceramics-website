@@ -118,34 +118,7 @@ border-radius: 2px; }
   }
 }
 
-/****** Carousel ***/
-.card {
-  padding: 0 !important;
-  margin: 100px;
-  padding: 0px;
 
-  background: none;
-  border: none;
-}
-.about {
-  display: inline-block;
-  margin-right: 20px;
-  margin-top: 45px;
-}
-
-@media (max-width: 768px) {
-  .card {
-    margin: 5px;
-    font-size: 13px;
-  }
-
-  .about {
-    display: inline-block;
-    margin-right: 5px;
-    margin-top: 5px;
-
-  }
-}
 /****** GALLERY ****/
 .gallery {
  margin: 10px;
