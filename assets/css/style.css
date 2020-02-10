@@ -94,7 +94,6 @@ border-radius: 2px; }
   padding: 0 !important;
   margin: 100px;
   padding: 0px;
-
   background: none;
   border: none;
 }
@@ -117,8 +116,44 @@ border-radius: 2px; }
 
   }
 }
+/****** WORKSHOPS ******/
+.cardwork {
+  padding: 0 !important;
+  margin-left: 400px;
 
+  align-items: center;
+  padding: 0px;
+  background: none;
+  border: 1px;
+}
+.card-bodywork {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.cardwork img {
+  border-radius: 10%;
+}
+.about {
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 45px;
+}
 
+@media (max-width: 768px) {
+  .cardwork {
+    margin: 5px;
+    font-size: 13px;
+  }
+
+  .about {
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 5px;
+
+  }
+}
 /****** GALLERY ****/
 .gallery {
  margin: 10px;
