@@ -94,8 +94,14 @@ border-radius: 2px; }
   padding: 0 !important;
   margin: 100px;
   padding: 0px;
-  background: none;
+  background: grey;
   border: none;
+}
+.card-body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;  
 }
 .about {
   display: inline-block;
@@ -120,6 +126,7 @@ border-radius: 2px; }
 .cardwork {
   padding: 0 !important;
   margin-left: 400px;
+  margin-right: 100px;
 
   align-items: center;
   padding: 0px;
