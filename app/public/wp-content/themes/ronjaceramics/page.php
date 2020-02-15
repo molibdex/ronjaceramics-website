@@ -1,40 +1,96 @@
 <?php
-/**
- * The template for displaying all pages
- *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site may use a
- * different template.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package ronja_ceramics
- */
+/*
+  Template name: Home Page
+*/
 
-get_header();
-?>
+get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+<br>
+<br>
+<!--Carousel Wrapper-->
+<div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
 
-		<?php
-		while ( have_posts() ) :
-			the_post();
+  <!--Slides-->
+  <div class="carousel-inner float-center" role="listbox">
 
-			get_template_part( 'template-parts/content', 'page' );
+    <!--First slide-->
+    <div class="carousel-item active">
 
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="assets\img\items\01.jpg"
+            alt="Card image cap">
+        </div>
+      </div>
 
-		endwhile; // End of the loop.
-		?>
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="assets\img\items\02.jpg"
+            alt="Card image cap">
+        </div>
+      </div>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="assets\img\items\03.jpg"
+            alt="Card image cap">
+        </div>
+      </div>
 
-<?php
-get_sidebar();
-get_footer();
+    </div>
+    <!--/.First slide-->
+
+    <!--Second slide-->
+    <div class="carousel-item">
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="assets\img\items\02.jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="assets\img\items\01.jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-3">
+        <div class="card">
+          <img class="img-fluid" src="assets\img\items\02.jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+
+
+    </div>
+    <!--/.Second slide-->
+
+  </div>
+  <!--/.Slides-->
+  <!--Controls-->
+<a class="carousel-control-prev" href="#multi-item-example" role="button" data-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#multi-item-example" role="button" data-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+</a>
+<!--/.Controls-->
+
+</div>
+<!--/.Carousel Wrapper-->
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<?php get_footer(); ?>
