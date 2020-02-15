@@ -446,12 +446,12 @@ p {
   color: black;
 }
 
-#mainNav .navbar-nav .nav-item .nav-link {
+#mainNav .navbar-nav .navbar-right  .nav-item .nav-link {
   color: #333333;
   font-weight: 800;
 }
 
-#mainNav .navbar-nav .nav-item.active .nav-link {
+#mainNav .navbar-nav .navbar-right .nav-item.active .nav-link {
   color: black;
 }
 

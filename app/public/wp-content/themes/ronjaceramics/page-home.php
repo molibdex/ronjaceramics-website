@@ -1,7 +1,9 @@
 <?php
 /*
-  Template name: Home Page
+  Template name: Front page
 */
+
+$obrazek_w_karuzeli_01 = get_field('obrazek_w_karuzeli_01');
 
 get_header(); ?>
 
@@ -18,22 +20,28 @@ get_header(); ?>
 
       <div class="col-md-3 mb-3">
         <div class="card">
-          <img class="img-fluid" src="assets\img\items\01.jpg"
-            alt="Card image cap">
+          <!-- If user uplodaed an image -->
+          <?php if( !empty ($obrazek_w_karuzeli_01)) : ?>
+            <img class="img-fluid" src="<?php echo $obrazek_w_karuzeli_01['url'] ?>" alt="<?php echo $obrazek_w_karuzeli_01['alt'] ?>">
+          <?php endif; ?>
         </div>
       </div>
 
       <div class="col-md-3 mb-3">
         <div class="card">
-          <img class="img-fluid" src="assets\img\items\02.jpg"
-            alt="Card image cap">
+          <!-- If user uplodaed an image -->
+          <?php if( !empty ($obrazek_w_karuzeli_01)) : ?>
+            <img class="img-fluid" src="<?php echo $obrazek_w_karuzeli_01['url'] ?>" alt="<?php echo $obrazek_w_karuzeli_01['alt'] ?>">
+          <?php endif; ?>
         </div>
       </div>
 
       <div class="col-md-3 mb-3">
         <div class="card">
-          <img class="img-fluid" src="assets\img\items\03.jpg"
-            alt="Card image cap">
+          <!-- If user uplodaed an image -->
+          <?php if( !empty ($obrazek_w_karuzeli_01)) : ?>
+            <img class="img-fluid" src="<?php echo $obrazek_w_karuzeli_01['url'] ?>" alt="<?php echo $obrazek_w_karuzeli_01['alt'] ?>">
+          <?php endif; ?>
         </div>
       </div>
 
@@ -45,25 +53,30 @@ get_header(); ?>
 
       <div class="col-md-3 mb-3">
         <div class="card">
-          <img class="img-fluid" src="assets\img\items\02.jpg"
-            alt="Card image cap">
+          <!-- If user uplodaed an image -->
+          <?php if( !empty ($obrazek_w_karuzeli_01)) : ?>
+            <img class="img-fluid" src="<?php echo $obrazek_w_karuzeli_01['url'] ?>" alt="<?php echo $obrazek_w_karuzeli_01['alt'] ?>">
+          <?php endif; ?>
         </div>
       </div>
 
       <div class="col-md-3 mb-3">
         <div class="card">
-          <img class="img-fluid" src="assets\img\items\01.jpg"
-            alt="Card image cap">
+          <!-- If user uplodaed an image -->
+          <?php if( !empty ($obrazek_w_karuzeli_01)) : ?>
+            <img class="img-fluid" src="<?php echo $obrazek_w_karuzeli_01['url'] ?>" alt="<?php echo $obrazek_w_karuzeli_01['alt'] ?>">
+          <?php endif; ?>
         </div>
       </div>
 
       <div class="col-md-3 mb-3">
         <div class="card">
-          <img class="img-fluid" src="assets\img\items\02.jpg"
-            alt="Card image cap">
+          <!-- If user uplodaed an image -->
+          <?php if( !empty ($obrazek_w_karuzeli_01)) : ?>
+            <img class="img-fluid" src="<?php echo $obrazek_w_karuzeli_01['url'] ?>" alt="<?php echo $obrazek_w_karuzeli_01['alt'] ?>">
+          <?php endif; ?>
         </div>
       </div>
-
 
 
     </div>
@@ -85,12 +98,6 @@ get_header(); ?>
 </div>
 <!--/.Carousel Wrapper-->
 <br>
-
 <br>
 <br>
-<br>
-<br>
-<br>
-
-
 <?php get_footer(); ?>

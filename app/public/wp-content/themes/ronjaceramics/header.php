@@ -44,16 +44,16 @@
 				In other words, it overwrites the "container_class".
 				Ref: http://wordpress.org/support/topic/wp_nav_menu-menu_class-usage-bug?replies=4 -->
 
-									<?php
-										wp_nav_menu( array(
+				<?php
+					wp_nav_menu( array(
 
-											'theme_location'	=> 'primary',
-											'container'			=> 'nav',
-											'container_class'	=> 'navbar-collapse collapse',
-											'menu_class'		=> 'nav navbar-nav '
+						'theme_location'	=> 'primary',
+						'container'			=> 'nav',
+						'container_class'	=> 'navbar-collapse collapse',
+						'menu_class'		=> 'nav navbar-nav navbar-right'
 
-										) );
-									?>
+					) );
+				?>
 
 
 	    </div>
