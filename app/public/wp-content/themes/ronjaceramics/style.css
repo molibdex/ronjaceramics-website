@@ -451,9 +451,12 @@ p {
   font-weight: 800;
 }
 
-#mainNav .navbar-nav .navbar-right .nav-item.active .nav-link {
+#mainNav .navbar-nav .nav-item .active .nav-link {
   color: black;
 }
+ .navbar-right {
+	 color: black;
+ }
 
 @media (min-width: 992px) {
   #mainNav .navbar-nav .nav-item .nav-link {
