@@ -1,23 +1,13 @@
 <?php
 /*
-  Template name: Index
+  Template name: Shop
 */
-
-
 
 get_header(); ?>
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+Już wkrotce!
 <br>
 <br>
 <br>

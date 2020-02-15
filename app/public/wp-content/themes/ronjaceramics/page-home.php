@@ -4,6 +4,11 @@
 */
 
 $obrazek_w_karuzeli_01 = get_field('obrazek_w_karuzeli_01');
+$obrazek_w_karuzeli_01 = get_field('obrazek_w_karuzeli_02');
+$obrazek_w_karuzeli_01 = get_field('obrazek_w_karuzeli_03');
+$obrazek_w_karuzeli_01 = get_field('obrazek_w_karuzeli_04');
+$obrazek_w_karuzeli_01 = get_field('obrazek_w_karuzeli_05');
+$obrazek_w_karuzeli_01 = get_field('obrazek_w_karuzeli_06');
 
 get_header(); ?>
 
@@ -29,19 +34,13 @@ get_header(); ?>
 
       <div class="col-md-3 mb-3">
         <div class="card">
-          <!-- If user uplodaed an image -->
-          <?php if( !empty ($obrazek_w_karuzeli_01)) : ?>
-            <img class="img-fluid" src="<?php echo $obrazek_w_karuzeli_01['url'] ?>" alt="<?php echo $obrazek_w_karuzeli_01['alt'] ?>">
-          <?php endif; ?>
+            <img class="img-fluid" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/items/01.jpg" alt="test">
         </div>
       </div>
 
       <div class="col-md-3 mb-3">
         <div class="card">
-          <!-- If user uplodaed an image -->
-          <?php if( !empty ($obrazek_w_karuzeli_01)) : ?>
-            <img class="img-fluid" src="<?php echo $obrazek_w_karuzeli_01['url'] ?>" alt="<?php echo $obrazek_w_karuzeli_01['alt'] ?>">
-          <?php endif; ?>
+            <img class="img-fluid" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/items/2.jpg" alt="test">
         </div>
       </div>
 
@@ -53,28 +52,19 @@ get_header(); ?>
 
       <div class="col-md-3 mb-3">
         <div class="card">
-          <!-- If user uplodaed an image -->
-          <?php if( !empty ($obrazek_w_karuzeli_01)) : ?>
-            <img class="img-fluid" src="<?php echo $obrazek_w_karuzeli_01['url'] ?>" alt="<?php echo $obrazek_w_karuzeli_01['alt'] ?>">
-          <?php endif; ?>
+            <img class="img-fluid" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/items/3.jpg" alt="test">
         </div>
       </div>
 
       <div class="col-md-3 mb-3">
         <div class="card">
-          <!-- If user uplodaed an image -->
-          <?php if( !empty ($obrazek_w_karuzeli_01)) : ?>
-            <img class="img-fluid" src="<?php echo $obrazek_w_karuzeli_01['url'] ?>" alt="<?php echo $obrazek_w_karuzeli_01['alt'] ?>">
-          <?php endif; ?>
+            <img class="img-fluid" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/items/4.jpg" alt="test">
         </div>
       </div>
 
       <div class="col-md-3 mb-3">
         <div class="card">
-          <!-- If user uplodaed an image -->
-          <?php if( !empty ($obrazek_w_karuzeli_01)) : ?>
-            <img class="img-fluid" src="<?php echo $obrazek_w_karuzeli_01['url'] ?>" alt="<?php echo $obrazek_w_karuzeli_01['alt'] ?>">
-          <?php endif; ?>
+            <img class="img-fluid" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/items/5.png" alt="test">
         </div>
       </div>
 

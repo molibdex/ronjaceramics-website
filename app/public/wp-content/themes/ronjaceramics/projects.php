@@ -1,23 +1,13 @@
 <?php
 /*
-  Template name: Index
+  Template name: Projects
 */
-
-
 
 get_header(); ?>
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+PROJEKTY
 <br>
 <br>
 <br>

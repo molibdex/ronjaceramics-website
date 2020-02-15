@@ -21,18 +21,13 @@
                 <div class="col-lg-5 col-xs-12 icons">
                   <ul class="row">
                     <li class="col-xs-6 col-sm-2">
-                      <a href="#">
-                        <img class="icon smedia " src="assets\img\icons\fb.png">
+                      <a href="https://www.facebook.com/Ronja-Ceramics-630755160690711/">
+                        <img class="icon smedia " src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/fb.png">
                       </a>
                     </li>
                     <li class="col-xs-6 col-sm-2">
-                      <a href="#">
-                        <img class="icon smedia" src="assets\img\icons\tw.png">
-                      </a>
-                    </li>
-                    <li class="col-xs-6 col-sm-2">
-                      <a href="#">
-                        <img class="icon smedia" src="assets\img\icons\insta.png">
+                      <a href="https://www.instagram.com/ronja_ceramics/">
+                        <img class="icon smedia" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/insta.png">
                       </a>
                     </li>
                   </ul>

@@ -1,23 +1,13 @@
 <?php
 /*
-  Template name: Index
+  Template name: Contact
 */
-
-
 
 get_header(); ?>
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+KONTAKT
 <br>
 <br>
 <br>
