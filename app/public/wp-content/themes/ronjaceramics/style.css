@@ -486,18 +486,19 @@ border-radius: 2px; }
 .cardus {
   padding: 0 !important;
   margin: 100px;
-  padding: 0px;
+
   background: none;
   border: none;
 }
 .card-body {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   padding-left: 20px;
   padding-right: 20px;
 }
 .card-body p {
-  font-size: 18px;
+  font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 1000px) {
@@ -516,9 +517,9 @@ border-radius: 2px; }
 /****** WORKSHOPS ******/
 .cardwork {
   padding: 0 !important;
-  margin-left: 400px;
+  margin-left: 300px;
   margin-right: 100px;
-
+	margin-bottom: 50px;
   align-items: center;
   padding: 0px;
   background: none;
@@ -528,14 +529,14 @@ border-radius: 2px; }
   padding-top: 0px;
   padding-bottom: 0px;
   padding-left: 10px;
-  padding-right: 0px;
+  padding-right: 150px;
 }
 .cardwork img {
   border-radius: 10%;
   padding-top: 0px;
 }
 .card-bodywork p {
-  font-size: 19px;
+  font-size: 17px;
 }
 .card-bodywork b {
   font-size: 19px;
@@ -589,6 +590,41 @@ padding-right: 1.1rem;
 
 .jumbotron {
   background: #333333;
+}
+/***** Contact ****/
+.cardcon {
+  padding: 0 !important;
+	margin-left:250px;
+	margin-right:200px;
+	margin-top:50px;
+  margin-bottom:100px;
+
+  background: none;
+  border: none;
+}
+.card-bodycon {
+  padding-top: 20%;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 0px;
+}
+.card-bodycon p {
+  font-size: 17px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 1000px) {
+  .cardcon {
+    margin: 5px;
+    font-size: 11px;
+  }
+
+  .con {
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 5px;
+
+  }
 }
 /***** Footer *****/
 @media (max-width: 575px) {

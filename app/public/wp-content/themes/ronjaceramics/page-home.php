@@ -104,5 +104,5 @@ get_header(); ?>
 <!--/.Carousel Wrapper-->
 <br>
 <br>
-<br>
+
 <?php get_footer(); ?>

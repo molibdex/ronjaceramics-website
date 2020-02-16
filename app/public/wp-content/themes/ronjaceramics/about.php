@@ -7,9 +7,7 @@ $nasze = get_field('nasze');
 $onas = get_field('onas');
 
 get_header(); ?>
-<br>
-<br>
-<br>
+
 <div class="cardus">
     <div class="row no-gutters">
         <div class="col-md-5">
@@ -17,11 +15,9 @@ get_header(); ?>
           <?php if( !empty ($nasze)) : ?>
             <img class="img-fluid ard-img-top h-100" src="<?php echo $nasze['url']; ?>" alt="<?php echo $nasze['alt']; ?>">
           <?php endif; ?>
-
         </div>
         <div class="col-md-7">
             <div class="card-body">
-
               <p class="card-text">
                 <?php echo $onas; ?>
               </p>
@@ -29,7 +25,6 @@ get_header(); ?>
         </div>
     </div>
 </div>
-<br>
 <br>
 <br>
 <?php get_footer(); ?>
