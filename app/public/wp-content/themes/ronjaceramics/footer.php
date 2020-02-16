@@ -36,9 +36,9 @@
                 <!-- koniec pusty DIV -->
                 <div class="col-lg-3 col-xs-12 head-foot">
                   <br>
-                    <p class="head-foot"><a href="{% url 'pagemap' %}">POLITYKA PRYWATNOŚCI</a></p>
-                    <p class="head-foot"><a href="">REGULAMIN</a></p>
-                    <p class="head-foot"><a href="{% url 'home' %}">ZWROTY</a></p>
+                    <p class="head-foot"><a href="#">POLITYKA PRYWATNOŚCI</a></p>
+                    <p class="head-foot"><a href="#">REGULAMIN</a></p>
+                    <p class="head-foot"><a href="#">ZWROTY</a></p>
                 </div>
                 <div class="col-lg-4 col-xs-12 location head-foot2 nopadding">
                   <br>
