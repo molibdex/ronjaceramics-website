@@ -36,13 +36,13 @@
 
 <img class="mx-auto d-block logo img-fluid" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logotrans.png">
 		<nav id="site-navigation" class="main-navigation nav navbar nav-item">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary', 'ronjaceramics' ); ?></button>
+		
 			<?php /* Primary navigation */
 	wp_nav_menu( array(
 	  'menu' => 'Primary',
 	  'depth' => 2,
 	  'container' => true,
-	  'menu_class' => 'nav navbar',
+	  'menu_class' => 'nav navbar nav-link',
 	  //Process nav menu using our custom nav walker
 	  'walker' => new wp_bootstrap_navwalker())
 	);
