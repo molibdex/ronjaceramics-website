@@ -7,9 +7,6 @@ get_header(); ?>
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
 
 <!-- Grid row -->
 <div class="gallery" id="gallery">
@@ -94,10 +91,4 @@ get_header(); ?>
 </div>
 <!-- Grid row -->
 
-
-<br>
-<br>
-<br>
-<br>
-<br>
 <?php get_footer(); ?>
