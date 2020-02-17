@@ -27,36 +27,27 @@
 	<?php wp_head(); ?>
 </head>
 
+
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'ronjaceramics' ); ?></a>
 
-	<!-- header -->
-<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img class="mx-auto d-block logo img-fluid" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logotrans.png" alt="test"></a>
-	  <!-- Navigation -->
-	  <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
-	    <div class="container">
+	<header id="masthead" class="site-header">
 
-	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="navbar-toggler-icon"></span>
-	      </button>
-				<!-- If the menu (WP admin area) is not set, then the "menu_class" is applied to "container".
-				In other words, it overwrites the "container_class".
-				Ref: http://wordpress.org/support/topic/wp_nav_menu-menu_class-usage-bug?replies=4 -->
+<img class="mx-auto d-block logo img-fluid" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logotrans.png">
+		<nav id="site-navigation" class="main-navigation nav navbar nav-item">
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary', 'ronjaceramics' ); ?></button>
+			<?php /* Primary navigation */
+	wp_nav_menu( array(
+	  'menu' => 'Primary',
+	  'depth' => 2,
+	  'container' => true,
+	  'menu_class' => 'nav navbar',
+	  //Process nav menu using our custom nav walker
+	  'walker' => new wp_bootstrap_navwalker())
+	);
+	?>
+		</nav><!-- #site-navigation -->
+	</header><!-- #masthead -->
 
-				<?php
-					wp_nav_menu( array(
-
-						'theme_location'	=> 'primary',
-						'container'			=> 'nav',
-						'container_class'	=> 'navbar-collapse collapse',
-						'menu_class'		=> 'nav navbar-nav navbar-right'
-
-					) );
-				?>
-
-
-	    </div>
-	  </nav>
-
-		<!-- end header -->
+	<div id="content" class="site-content">

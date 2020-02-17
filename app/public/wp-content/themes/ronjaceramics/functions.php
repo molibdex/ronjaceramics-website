@@ -44,7 +44,7 @@ if ( ! function_exists( 'ronjaceramics_setup' ) ) :
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
-			'menu-1' => esc_html__( 'Primary', 'ronjaceramics' ),
+			'Primary' => esc_html__( 'Primary', 'ronjaceramics' ),
 		) );
 
 		/*
@@ -165,3 +165,25 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 if ( class_exists( 'WooCommerce' ) ) {
 	require get_template_directory() . '/inc/woocommerce.php';
 }
+
+
+/* Theme setup */
+add_action( 'after_setup_theme', 'wpt_setup' );
+    if ( ! function_exists( 'wpt_setup' ) ):
+        function wpt_setup() {
+            register_nav_menu( 'primary', __( 'Primary navigation', 'wptuts' ) );
+        } endif;
+
+				function wpt_register_js() {
+				    wp_register_script('jquery.bootstrap.min', get_template_directory_uri() . '/assets/js/bootstrap.min.js', 'jquery');
+				    wp_enqueue_script('jquery.bootstrap.min');
+				}
+add_action( 'init', 'wpt_register_js' );
+				function wpt_register_css() {
+				    wp_register_style( 'bootstrap.min', get_template_directory_uri() . '/assets/css/bootstrap.min.css' );
+				    wp_enqueue_style( 'bootstrap.min' );
+				}
+add_action( 'wp_enqueue_scripts', 'wpt_register_css' );
+
+// Register custom navigation walker
+    require_once('wp_bootstrap_navwalker.php');
