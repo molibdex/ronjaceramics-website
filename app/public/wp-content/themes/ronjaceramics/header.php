@@ -36,13 +36,14 @@
 
 <img class="mx-auto d-block logo img-fluid" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logotrans.png">
 		<nav id="site-navigation" class="main-navigation nav navbar nav-item">
-		
+
 			<?php /* Primary navigation */
 	wp_nav_menu( array(
-	  'menu' => 'Primary',
+	  'menu' => 'Primary 2',
 	  'depth' => 2,
 	  'container' => true,
 	  'menu_class' => 'nav navbar nav-link',
+		'items_wrap'      => '<ul class="nav justify-content-end w-100 %2$s">%3$s</ul>',
 	  //Process nav menu using our custom nav walker
 	  'walker' => new wp_bootstrap_navwalker())
 	);
