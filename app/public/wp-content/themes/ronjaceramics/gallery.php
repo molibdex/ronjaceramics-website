@@ -7,7 +7,7 @@ get_header(); ?>
 <br>
 <br>
 <br>
-
+<br>
 <!-- Grid row -->
 <div class="gallery" id="gallery">
 

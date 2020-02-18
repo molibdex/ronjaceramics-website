@@ -14,6 +14,8 @@ get_header(); ?>
 
 <br>
 <br>
+<br>
+<br>
 <!--Carousel Wrapper-->
 <div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
 
@@ -103,5 +105,5 @@ get_header(); ?>
 </div>
 <!--/.Carousel Wrapper-->
 
-
+<br>
 <?php get_footer(); ?>
