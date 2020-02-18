@@ -2,6 +2,24 @@
 /*
   Template name: Gallery
 */
+$photo_A01 = get_field('photo_A01');
+$photo_A02 = get_field('photo_A02');
+$photo_A03 = get_field('photo_A03');
+$photo_A04 = get_field('photo_A04');
+$photo_A05 = get_field('photo_A05');
+$photo_A06 = get_field('photo_A06');
+$photo_A07 = get_field('photo_A07');
+$photo_A08 = get_field('photo_A08');
+$photo_A09 = get_field('photo_A09');
+$photo_B01 = get_field('photo_B01');
+$photo_B02 = get_field('photo_B02');
+$photo_B03 = get_field('photo_B03');
+$photo_B04 = get_field('photo_B04');
+$photo_B05 = get_field('photo_B05');
+$photo_B06 = get_field('photo_B06');
+$photo_B07 = get_field('photo_B07');
+$photo_B08 = get_field('photo_B08');
+$photo_B09 = get_field('photo_B09');
 
 get_header(); ?>
 <br>
@@ -13,37 +31,84 @@ get_header(); ?>
 
 <!-- Grid column -->
 <div class="mb-3 pics animation all 2">
-  <img class="img-fluid" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/gallery/01.jpg" alt="Card image cap">
+  <!-- If user uplodaed an image -->
+  <?php if( !empty ($photo_A01)) : ?>
+    <img class="img-fluid" src="<?php echo $photo_A01['url']; ?>" alt="<?php echo $photo_A01['alt']; ?>">
+  <?php endif; ?>
 </div>
 <!-- Grid column -->
 
 <!-- Grid column -->
 <div class="mb-3 pics animation all 1">
-  <img class="img-fluid" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/gallery/02.jpg" alt="Card image cap">
+  <!-- If user uplodaed an image -->
+  <?php if( !empty ($photo_A02)) : ?>
+    <img class="img-fluid" src="<?php echo $photo_A02['url']; ?>" alt="<?php echo $photo_A02['alt']; ?>">
+  <?php endif; ?>
+
 </div>
 <!-- Grid column -->
 
 <!-- Grid column -->
 <div class="mb-3 pics animation all 1">
-  <img class="img-fluid" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/gallery/03.jpg" alt="Card image cap">
+  <!-- If user uplodaed an image -->
+  <?php if( !empty ($photo_A03)) : ?>
+    <img class="img-fluid" src="<?php echo $photo_A03['url']; ?>" alt="<?php echo $photo_A03['alt']; ?>">
+  <?php endif; ?>
+
 </div>
 <!-- Grid column -->
 
 <!-- Grid column -->
 <div class="mb-3 pics animation all 2">
-  <img class="img-fluid" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/gallery/04.jpg" alt="Card image cap">
+  <!-- If user uplodaed an image -->
+  <?php if( !empty ($photo_A04)) : ?>
+    <img class="img-fluid" src="<?php echo $photo_A04['url']; ?>" alt="<?php echo $photo_A04['alt']; ?>">
+  <?php endif; ?>
 </div>
 <!-- Grid column -->
 
 <!-- Grid column -->
 <div class="mb-3 pics animation all 2">
-  <img class="img-fluid" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/gallery/05.jpg" alt="Card image cap">
+  <!-- If user uplodaed an image -->
+  <?php if( !empty ($photo_A05)) : ?>
+    <img class="img-fluid" src="<?php echo $photo_A05['url']; ?>" alt="<?php echo $photo_A05['alt']; ?>">
+  <?php endif; ?>
 </div>
 <!-- Grid column -->
 
 <!-- Grid column -->
 <div class="mb-3 pics animation all 1">
-  <img class="img-fluid" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/gallery/06.jpg" alt="Card image cap">
+  <!-- If user uplodaed an image -->
+  <?php if( !empty ($photo_A06)) : ?>
+    <img class="img-fluid" src="<?php echo $photo_A06['url']; ?>" alt="<?php echo $photo_A06['alt']; ?>">
+  <?php endif; ?>
+</div>
+<!-- Grid column -->
+
+<!-- Grid column -->
+<div class="mb-3 pics animation all 1">
+  <!-- If user uplodaed an image -->
+  <?php if( !empty ($photo_A07)) : ?>
+    <img class="img-fluid" src="<?php echo $photo_A07['url']; ?>" alt="<?php echo $photo_A07['alt']; ?>">
+  <?php endif; ?>
+</div>
+<!-- Grid column -->
+
+<!-- Grid column -->
+<div class="mb-3 pics animation all 1">
+  <!-- If user uplodaed an image -->
+  <?php if( !empty ($photo_A08)) : ?>
+    <img class="img-fluid" src="<?php echo $photo_A08['url']; ?>" alt="<?php echo $photo_A08['alt']; ?>">
+  <?php endif; ?>
+</div>
+<!-- Grid column -->
+
+<!-- Grid column -->
+<div class="mb-3 pics animation all 1">
+  <!-- If user uplodaed an image -->
+  <?php if( !empty ($photo_A09)) : ?>
+    <img class="img-fluid" src="<?php echo $photo_A09['url']; ?>" alt="<?php echo $photo_A09['alt']; ?>">
+  <?php endif; ?>
 </div>
 <!-- Grid column -->
 
@@ -52,41 +117,86 @@ get_header(); ?>
 
 <div class="gallery jumbotron" id="gallery">
 
-<!-- Grid column -->
-<div class="mb-3 pics animation all 2">
-  <img class="img-fluid" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/gallery/07.jpg" alt="Card image cap">
-</div>
-<!-- Grid column -->
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <!-- If user uplodaed an image -->
+    <?php if( !empty ($photo_B01)) : ?>
+      <img class="img-fluid" src="<?php echo $photo_B01['url']; ?>" alt="<?php echo $photo_B01['alt']; ?>">
+    <?php endif; ?>
+  </div>
+  <!-- Grid column -->
 
-<!-- Grid column -->
-<div class="mb-3 pics animation all 1">
-  <img class="img-fluid" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/gallery/08.jpg" alt="Card image cap">
-</div>
-<!-- Grid column -->
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <!-- If user uplodaed an image -->
+    <?php if( !empty ($photo_B02)) : ?>
+      <img class="img-fluid" src="<?php echo $photo_B02['url']; ?>" alt="<?php echo $photo_B02['alt']; ?>">
+    <?php endif; ?>
+  </div>
+  <!-- Grid column -->
 
-<!-- Grid column -->
-<div class="mb-3 pics animation all 1">
-  <img class="img-fluid" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/gallery/09.jpg" alt="Card image cap">
-</div>
-<!-- Grid column -->
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <!-- If user uplodaed an image -->
+    <?php if( !empty ($photo_B03)) : ?>
+      <img class="img-fluid" src="<?php echo $photo_B03['url']; ?>" alt="<?php echo $photo_B03['alt']; ?>">
+    <?php endif; ?>
+  </div>
+  <!-- Grid column -->
 
-<!-- Grid column -->
-<div class="mb-3 pics animation all 2">
-  <img class="img-fluid" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/gallery/10.jpg" alt="Card image cap">
-</div>
-<!-- Grid column -->
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <!-- If user uplodaed an image -->
+    <?php if( !empty ($photo_B04)) : ?>
+      <img class="img-fluid" src="<?php echo $photo_B04['url']; ?>" alt="<?php echo $photo_B04['alt']; ?>">
+    <?php endif; ?>
+  </div>
+  <!-- Grid column -->
 
-<!-- Grid column -->
-<div class="mb-3 pics animation all 2">
-  <img class="img-fluid" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/gallery/11.jpg" alt="Card image cap">
-</div>
-<!-- Grid column -->
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <!-- If user uplodaed an image -->
+    <?php if( !empty ($photo_B05)) : ?>
+      <img class="img-fluid" src="<?php echo $photo_B05['url']; ?>" alt="<?php echo $photo_B05['alt']; ?>">
+    <?php endif; ?>
+  </div>
+  <!-- Grid column -->
 
-<!-- Grid column -->
-<div class="mb-3 pics animation all 1">
-  <img class="img-fluid" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/gallery/12.jpg" alt="Card image cap">
-</div>
-<!-- Grid column -->
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <!-- If user uplodaed an image -->
+    <?php if( !empty ($photo_B06)) : ?>
+      <img class="img-fluid" src="<?php echo $photo_B06['url']; ?>" alt="<?php echo $photo_B06['alt']; ?>">
+    <?php endif; ?>
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <!-- If user uplodaed an image -->
+    <?php if( !empty ($photo_B07)) : ?>
+      <img class="img-fluid" src="<?php echo $photo_B07['url']; ?>" alt="<?php echo $photo_B07['alt']; ?>">
+    <?php endif; ?>
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <!-- If user uplodaed an image -->
+    <?php if( !empty ($photo_B08)) : ?>
+      <img class="img-fluid" src="<?php echo $photo_B08['url']; ?>" alt="<?php echo $photo_B08['alt']; ?>">
+    <?php endif; ?>
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <!-- If user uplodaed an image -->
+    <?php if( !empty ($photo_B09)) : ?>
+      <img class="img-fluid" src="<?php echo $photo_B09['url']; ?>" alt="<?php echo $photo_B09['alt']; ?>">
+    <?php endif; ?>
+  </div>
+  <!-- Grid column -->
 
 </div>
 <!-- Grid row -->
