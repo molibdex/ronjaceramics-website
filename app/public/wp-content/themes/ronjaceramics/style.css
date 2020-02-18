@@ -392,6 +392,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-attachment: fixed;
   background-position: center;
+	margin-bottom: 0px;
 
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
 background: #E7E8EA; /* Old browsers */
@@ -648,17 +649,19 @@ ul {
   list-style-type: none;
  }
 .footer{
-
     height: auto;
     width: 100%;
+		padding-bottom: none;
     position: sticky;
 
 }
 .icon{
   width: 80%;
   height: auto;
-  margin-top: 30px;
+  margin-top: 0px;
+
 }
+
 .author {
     color: #ffffff;
 }
@@ -667,6 +670,7 @@ ul {
    margin: 0 !important;
 
 }
+
 .head-foot a {
     color:#333333;
 }
@@ -676,13 +680,13 @@ ul {
 }
 .head-foot p {
     text-align: right;
-    margin-top: 3px;
+    margin-top: 0px;
     color: #333333;
 }
 
 .head-foot p {
     text-align: right;
-    margin-top: 3px;
+    margin-top: 0px;
     font-family: 'Raleway';
     color: #333333;
     font-weight: 600;
@@ -690,7 +694,7 @@ ul {
 .head-foot2 p {
     color:#333333;
     text-align: left;
-    margin-top: 3px;
+    margin-top: 0px;
 }
 .head-foot li a {
     color:#333333;
@@ -704,4 +708,8 @@ ul {
 }
 .head-news a:hover {
     color: #E7E8EA ;
+}
+.copyright {
+	background: black;
+	margin-bottom: 0px;
 }

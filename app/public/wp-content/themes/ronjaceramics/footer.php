@@ -30,27 +30,23 @@
                         <img class="icon smedia" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/insta.png">
                       </a>
                     </li>
-                  </ul>
 
+                  </ul>
+                  <ul>
+                    <li>
+                      <p class="head-foot"><a href="#">POLITYKA PRYWATNOŚCI</a></p>
+                    </li>
+                    <li>
+                      <p class="head-foot"><a href="#">REGULAMIN</a></p>
+                    </li>
+                    <li>
+                    <p class="head-foot"><a href="#">ZWROTY</a></p>
+                  </li>
+                  </ul>
                 </div>
                 <!-- koniec pusty DIV -->
-                <div class="col-lg-3 col-xs-12 head-foot">
-                  <br>
-                    <p class="head-foot"><a href="#">POLITYKA PRYWATNOŚCI</a></p>
-                    <p class="head-foot"><a href="#">REGULAMIN</a></p>
-                    <p class="head-foot"><a href="#">ZWROTY</a></p>
-                </div>
-                <div class="col-lg-4 col-xs-12 location head-foot2 nopadding">
-                  <br>
-                    <p><i class="fa fa-address-card mr-3"></i>Stalowa 15, 02-031 Warszawa</p>
-                    <p><i class="fa fa-phone mr-3"></i>00 000 00 00</p>
-                    <p><i class="fa fa-envelope mr-3"></i>ronjaceramics@gmail.com</p>
-                </div>
-            </div>
-            <div class="row mt-5 nopadding">
-                <div class="col copyright">
-                    <p class="author"><small class="text-white-50">&copy; MOLIBDEX 2020</small></p>
-                </div>
+                
+
             </div>
         </div>
     </div>
