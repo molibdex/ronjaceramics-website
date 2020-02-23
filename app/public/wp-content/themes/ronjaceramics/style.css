@@ -1,91 +1,3 @@
-/*!
-Theme Name: ronja ceramics
-Theme URI: http://underscores.me/
-Author: molibdex
-Author URI: https://github.com/molibdex
-Description: ronja ceramics website
-Version: 1.0.0
-License: GNU General Public License v2 or later
-License URI: LICENSE
-Text Domain: ronjaceramics
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-
-ronja ceramics is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
-*/
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-# Normalize
-# Typography
-# Elements
-# Forms
-# Navigation
-	## Links
-	## Menus
-# Accessibility
-# Alignments
-# Clearings
-# Widgets
-# Content
-	## Posts and pages
-	## Comments
-# Infinite scroll
-# Media
-	## Captions
-	## Galleries
-# Theme Specific Styles
---------------------------------------------------------------*/
-
-/* Grouping content
-	 ========================================================================== */
-
-
-
-/* Text-level semantics
-	 ========================================================================== */
-
-/* Embedded content
-	 ========================================================================== */
-
-/* Forms
-	 ========================================================================== */
-
-/* Interactive
-	 ========================================================================== */
-
-/* Misc
-	 ========================================================================== */
-
-/*--------------------------------------------------------------
-# Typography
---------------------------------------------------------------*/
-
-
-/*--------------------------------------------------------------
-# Elements
---------------------------------------------------------------*/
-
-/*--------------------------------------------------------------
-# Forms
---------------------------------------------------------------*/
-
-/*--------------------------------------------------------------
-# Navigation
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
-## Links
---------------------------------------------------------------*/
-
-/*--------------------------------------------------------------
-## Menus
---------------------------------------------------------------*/
 
 /* Small menu. */
 .menu-toggle,
@@ -231,9 +143,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	max-width: 100%;
 }
 
-/*--------------------------------------------------------------
-# Content
---------------------------------------------------------------*/
+
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
@@ -407,7 +317,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E7E8EA', end
    width: 300px;
    height: auto;
    margin-top: 30px;
-
  }
 h1,
 h2,
@@ -436,9 +345,7 @@ p {
   background: black;
 }
 
-
 #mainNav {
-
   font-family: 'Raleway';
   padding-bottom: 0px;
 }
@@ -457,7 +364,8 @@ p {
 }
  .navbar-right {
 	 color: black;
- }
+}
+
 #site-navigation .navbar {
 	display: flex;
 	text-align: center;
@@ -465,8 +373,8 @@ p {
 	margin-left: 100px;
 	width: 75%;
 	flex: auto;
-
 }
+
 #site-navigation .nav-link {
 	color: black;
 	font-weight: 500;
@@ -483,21 +391,17 @@ p {
     color: grey;
   }
 }
+
 @media (max-width: 768px){
-	#site-navigation .nav-link {
-
-
-	}
 	#site-navigation .navbar {
 		display: block;
 		text-align: center;
 		margin: 50px;
-
 		width: 75%;
 		flex: auto;
-
 	}
 }
+
 /***** HOME PAGE ****/
 @media (min-width: 768px) {
 .carousel-multi-item-2 .col-md-3 {
@@ -508,7 +412,8 @@ margin-left: 85px;
  } }
 
 .carousel-multi-item-2 .card img {
-border-radius: 2px; }
+border-radius: 2px;
+}
 
 /**** ABOUT US ****/
 .cardus {
@@ -517,12 +422,14 @@ border-radius: 2px; }
   background: none;
   border: none;
 }
+
 .card-body {
   padding-top: 0px;
   padding-bottom: 0px;
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .card-body p {
   font-size: 16px;
 	font-family: 'Montserrat', sans-serif;
@@ -539,7 +446,6 @@ border-radius: 2px; }
     display: inline-block;
     margin-right: 5px;
     margin-top: 5px;
-
   }
 }
 /****** WORKSHOPS ******/
@@ -603,7 +509,6 @@ border-radius: 2px; }
 	  border-radius: 10%;
 	  padding-top: 0px;
 		margin-top: 0px;
-
 	}
 }
 /****** GALLERY ****/
@@ -648,7 +553,6 @@ padding-right: 1.1rem;
 	margin-right:200px;
 	margin-top:50px;
   margin-bottom:100px;
-
   background: none;
   border: none;
 }
@@ -673,18 +577,9 @@ padding-right: 1.1rem;
     display: inline-block;
     margin-right: 5px;
     margin-top: 5px;
-
   }
 }
 /***** Footer *****/
-@media (max-width: 575px) {
-  img.smedia {
-    width: 50px;
-    display: flex;
-		flex: auto;
-   }
-}
-
 ul {
   list-style-type: none;
  }
@@ -693,13 +588,11 @@ ul {
     width: 100%;
 		padding-bottom: none;
     position: sticky;
-
 }
 .icon{
   width: 80%;
   height: auto;
   margin-top: 0px;
-
 }
 
 .author {
@@ -708,12 +601,12 @@ ul {
 .nopadding{
    padding: 0 !important;
    margin: 0 !important;
-
 }
 
 .head-foot a {
     color:#333333;
 }
+
 .head-foot a:hover {
     color: #333333;
     text-decoration: none;
@@ -752,4 +645,12 @@ ul {
 .copyright {
 	background: black;
 	margin-bottom: 0px;
+}
+
+@media (max-width: 575px) {
+  img.smedia {
+    width: 50px;
+    display: flex;
+		flex: auto;
+   }
 }
