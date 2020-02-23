@@ -471,6 +471,7 @@ p {
 	color: black;
 	font-weight: 500;
 }
+
 @media (min-width: 992px) {
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 0.9rem;
@@ -482,7 +483,21 @@ p {
     color: grey;
   }
 }
+@media (max-width: 768px){
+	#site-navigation .nav-link {
 
+
+	}
+	#site-navigation .navbar {
+		display: block;
+		text-align: center;
+		margin: 50px;
+
+		width: 75%;
+		flex: auto;
+
+	}
+}
 /***** HOME PAGE ****/
 @media (min-width: 768px) {
 .carousel-multi-item-2 .col-md-3 {
@@ -558,18 +573,38 @@ border-radius: 2px; }
 	text-align: justify;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .cardwork {
     margin: 5px;
-    font-size: 13px;
   }
-
+	.hardemptyspace {
+		display: none;
+	}
   .about {
     display: inline-block;
-    margin-right: 5px;
-    margin-top: 5px;
-
+    margin:5px;
+		font-size: 8px;
   }
+	.card-bodywork {
+	  padding-top: 0px;
+	  padding-bottom: 0px;
+	  padding-left: 5px;
+	  padding-right: 0px;
+	}
+	.card-bodywork p  {
+	  font-size: 12px;
+		text-align: justify;
+	}
+	.card-bodywork b {
+	  font-size: 13px;
+		text-align: justify;
+	}
+	.cardwork img {
+	  border-radius: 10%;
+	  padding-top: 0px;
+		margin-top: 0px;
+
+	}
 }
 /****** GALLERY ****/
 .gallery {
@@ -645,7 +680,8 @@ padding-right: 1.1rem;
 @media (max-width: 575px) {
   img.smedia {
     width: 50px;
-    display: block;
+    display: flex;
+		flex: auto;
    }
 }
 

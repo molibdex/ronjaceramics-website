@@ -12,10 +12,9 @@ $obrazek_w_karuzeli_06 = get_field('obrazek_w_karuzeli_06');
 
 get_header(); ?>
 
-<br>
-<br>
-<br>
-<br>
+<div class="hardemptyspace">
+<br><br><br><br>
+</div
 <!--Carousel Wrapper-->
 <div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
 

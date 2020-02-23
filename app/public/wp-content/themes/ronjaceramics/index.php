@@ -6,19 +6,7 @@
 
 
 get_header(); ?>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<div class="hardemptyspace">
+<br><br><br><br>
+</div
 <?php get_footer(); ?>

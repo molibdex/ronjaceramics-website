@@ -22,10 +22,9 @@ $photo_B08 = get_field('photo_B08');
 $photo_B09 = get_field('photo_B09');
 
 get_header(); ?>
-<br>
-<br>
-<br>
-<br>
+<div class="hardemptyspace">
+<br><br><br><br>
+</div
 <!-- Grid row -->
 <div class="gallery" id="gallery">
 
