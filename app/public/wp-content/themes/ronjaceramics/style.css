@@ -431,7 +431,7 @@ border-radius: 2px;
 }
 
 .card-body p {
-  font-size: 16px;
+  font-size: 17px;
 	font-family: 'Montserrat', sans-serif;
 	text-align: justify;
 }
@@ -466,8 +466,9 @@ border-radius: 2px;
   padding-right: 150px;
 }
 .cardwork img {
-  border-radius: 10%;
+  border-radius: 5%;
   padding-top: 0px;
+	height: auto;
 }
 .card-bodywork p {
   font-size: 17px;
@@ -617,7 +618,7 @@ ul {
     color: #333333;
 }
 
-.head-foot p {
+.head-foot a {
     text-align: right;
     margin-top: 0px;
     font-family: 'Raleway';
@@ -650,7 +651,14 @@ ul {
 @media (max-width: 575px) {
   img.smedia {
     width: 50px;
-    display: flex;
+    display: inline;
 		flex: auto;
    }
+	 .head-foot a {
+	     font-family: 'Raleway';
+	     color: #333333;
+	     font-weight: 600;
+			 font-size: 14px;
+
+	 }
 }
