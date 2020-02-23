@@ -499,7 +499,6 @@ border-radius: 2px; }
 .cardus {
   padding: 0 !important;
   margin: 100px;
-
   background: none;
   border: none;
 }
@@ -512,6 +511,7 @@ border-radius: 2px; }
 .card-body p {
   font-size: 16px;
 	font-family: 'Montserrat', sans-serif;
+	text-align: justify;
 }
 
 @media (max-width: 1000px) {
@@ -550,10 +550,12 @@ border-radius: 2px; }
 }
 .card-bodywork p {
   font-size: 17px;
+	text-align: justify;
 }
 .card-bodywork b {
   font-size: 19px;
   text-transform: uppercase;
+	text-align: justify;
 }
 
 @media (max-width: 768px) {
