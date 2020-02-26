@@ -2,5 +2,7 @@
 
 technologies: Wordpress
 
-temp preview: 
-9b00244d.ngrok.io
+minimalistic website & shop
+
+preview: 
+https://mojastrona456.000webhostapp.com/
