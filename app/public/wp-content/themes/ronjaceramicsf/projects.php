@@ -1,13 +1,13 @@
 <?php
 /*
-  Template name: Shop
+  Template name: Projects
 */
 
 get_header(); ?>
 <br>
 <br>
 <br>
-Już wkrotce!
+PROJEKTY
 <br>
 <br>
 <br>
