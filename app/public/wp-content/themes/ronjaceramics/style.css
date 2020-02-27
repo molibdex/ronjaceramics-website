@@ -462,7 +462,7 @@ border-radius: 2px;
   padding-right: 150px;
 }
 .cardwork img {
-  border-radius: 5%;
+
   padding-top: 0px;
 	height: auto;
 }
@@ -657,4 +657,8 @@ ul {
 			 font-size: 14px;
 
 	 }
+}
+
+.connect  {
+	margin-left: 10px;
 }

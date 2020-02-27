@@ -13,7 +13,7 @@ get_header(); ?>
         <div class="col-md-5">
           <!-- If user uplodaed an image -->
           <?php if( !empty ($nasze)) : ?>
-            <img class="img-fluid ard-img-top h-100" src="<?php echo $nasze['url']; ?>" alt="<?php echo $nasze['alt']; ?>">
+            <img class="img-fluid ard-img-top h-100 onas" src="<?php echo $nasze['url']; ?>" alt="<?php echo $nasze['alt']; ?>">
           <?php endif; ?>
         </div>
         <div class="col-md-7">
