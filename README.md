@@ -4,5 +4,5 @@ technologies: Wordpress
 
 minimalistic website & shop
 
-preview: 
-https://mojastrona456.000webhostapp.com/
+preview:
+http://strona01.dx.am/
