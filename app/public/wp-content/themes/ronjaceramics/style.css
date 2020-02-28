@@ -365,8 +365,7 @@ p {
 #site-navigation .navbar {
 	display: flex;
 	text-align: center;
-	margin-right: 375px;
-	margin-left: 100px;
+	margin-right: 28%;
 	width: 75%;
 	flex: auto;
 }
