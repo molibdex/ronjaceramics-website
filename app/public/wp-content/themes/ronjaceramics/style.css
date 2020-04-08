@@ -310,9 +310,9 @@ background: #ffffff;
 }
 
  .logo {
-   width: 300px;
+   width: 200px;
    height: auto;
-   margin-top: 100px;
+   margin-top: 50px;
  }
 h1,
 h2,
@@ -366,11 +366,17 @@ p {
 #site-navigation .navbar {
 	display: flex;
 	text-align: center;
-	margin-right: 28%;
-	width: 75%;
+	margin-left:25%;
+	margin-right:30%;
+	padding: none;
+
 	flex: auto;
 }
 
+.carousel-item {
+
+	width: 75px;
+}
 #site-navigation .nav-link {
 	color: black;
 	font-weight: 500;
@@ -399,6 +405,12 @@ p {
 }
 
 /***** HOME PAGE ****/
+
+.card {
+	max-width: 75%;
+	margin-left: 20%;
+	margin-right: 20%
+}
 @media (min-width: 768px) {
 .carousel-multi-item-2 .col-md-3 {
 float: left;

@@ -13,8 +13,8 @@ $obrazek_w_karuzeli_06 = get_field('obrazek_w_karuzeli_06');
 get_header(); ?>
 
 <div class="hardemptyspace">
-<br><br><br><br>
-</div
+<br>
+</div>
 <!--Carousel Wrapper-->
 <div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
 
@@ -104,5 +104,5 @@ get_header(); ?>
 </div>
 <!--/.Carousel Wrapper-->
 
-<br>
+
 <?php get_footer(); ?>
