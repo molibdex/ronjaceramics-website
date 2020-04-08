@@ -405,11 +405,15 @@ p {
 }
 
 /***** HOME PAGE ****/
-
+.content {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
 .card {
 	max-width: 75%;
 	margin-left: 20%;
-	margin-right: 20%
+	margin-right: 20%;
+	margin-bottom: 0px;
 }
 @media (min-width: 768px) {
 .carousel-multi-item-2 .col-md-3 {
@@ -631,7 +635,6 @@ ul {
     margin-top: 0px;
     font-family: 'Raleway';
     color: #333333;
-    font-weight: 600;
 }
 .head-foot2 p {
     color:#333333;
@@ -655,7 +658,9 @@ ul {
 	background: black;
 	margin-bottom: 0px;
 }
-
+.footer {
+	padding-top: 0px;
+}
 @media (max-width: 575px) {
   img.smedia {
     width: 50px;
