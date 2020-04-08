@@ -312,7 +312,7 @@ background: #ffffff;
  .logo {
    width: 300px;
    height: auto;
-   margin-top: 30px;
+   margin-top: 100px;
  }
 h1,
 h2,
@@ -353,6 +353,7 @@ p {
 #mainNav .navbar-nav .navbar-right  .nav-item .nav-link {
   color: #333333;
   font-weight: 800;
+	text-transform: lowercase;
 }
 
 #mainNav .navbar-nav .nav-item .active .nav-link {
