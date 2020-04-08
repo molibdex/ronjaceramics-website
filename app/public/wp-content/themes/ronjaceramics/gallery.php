@@ -22,9 +22,7 @@ $photo_B08 = get_field('photo_B08');
 $photo_B09 = get_field('photo_B09');
 
 get_header(); ?>
-<div class="hardemptyspace">
-<br><br><br><br>
-</div
+
 <!-- Grid row -->
 <div class="gallery" id="gallery">
 
@@ -114,7 +112,7 @@ get_header(); ?>
 </div>
 <!-- SECOND GALLERY -->
 
-<div class="gallery jumbotron" id="gallery">
+<div class="gallery" id="gallery">
 
   <!-- Grid column -->
   <div class="mb-3 pics animation all 1">
