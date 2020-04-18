@@ -312,7 +312,7 @@ background: #ffffff;
 }
 
  .logo {
-   width: 10%;
+   width: 8%;
    margin-top: 70px;
 	 margin-bottom: 25px;
  }
@@ -457,7 +457,8 @@ border-radius: 2px;
 
 .card-body p {
   font-size: 17px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Pontano Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	text-align: justify;
 }
 
@@ -593,7 +594,8 @@ padding-right: 1.1rem;
 }
 .card-bodycon p {
   font-size: 17px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Pontano Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 @media (max-width: 1000px) {
@@ -681,10 +683,11 @@ ul {
 		flex: auto;
    }
 	 .head-foot a {
-	     font-family: 'Raleway';
-	     color: #333333;
-	     font-weight: 600;
-			 font-size: 14px;
+		 	font-family: 'Pontano Sans', sans-serif;
+			font-family: 'Open Sans', sans-serif;
+	    color: #333333;
+	    font-weight: 600;
+			font-size: 14px;
 
 	 }
 }
