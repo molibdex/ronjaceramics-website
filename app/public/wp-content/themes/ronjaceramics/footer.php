@@ -14,7 +14,7 @@
 
 <?php wp_footer(); ?>
 <!-- Footer -->
-<div class="mt-5 pt-5 pb-5 footer foo">
+<div class=" footer foo">
     <div class="container">
         <div class="row nopadding ">
             <!-- pusty DIV -->

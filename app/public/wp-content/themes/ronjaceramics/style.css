@@ -615,14 +615,14 @@ ul {
 .footer{
     height: auto;
     width: 100%;
-		margin: 0px;
+		padding-top: 1000px;
     position: sticky;
 		padding: 0px;
 }
 .icon{
   width: 75%;
   height: auto;
-  margin-top: 0px;
+
 }
 
 .author {
@@ -648,13 +648,13 @@ ul {
 }
 .head-foot p {
     text-align: right;
-    margin-top: 0px;
+
     color: #333333;
 }
 .head-foot2 p {
     color:#333333;
     text-align: left;
-    margin-top: 0px;
+
 }
 .head-foot li a {
     color:#333333;
@@ -671,11 +671,9 @@ ul {
 }
 .foo {
 	padding: 0px;
-	margin: 0px;
+
 }
-.footer {
-	padding-top: 0px;
-}
+
 @media (max-width: 575px) {
   img.smedia {
     width: 50px;
@@ -693,4 +691,8 @@ ul {
 
 .connect  {
 	margin-left: 10px;
+}
+
+.carousel {
+	margin-bottom: 40px;
 }
