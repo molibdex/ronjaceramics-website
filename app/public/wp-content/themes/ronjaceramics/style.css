@@ -299,10 +299,12 @@ object {
 
 
 body {
-  font-family: 'Montserrat', sans-serif;
+	font-family: 'Pontano Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
   background-attachment: fixed;
   background-position: center;
 	margin-bottom: 0px;
+	padding-bottom: 0px;
 
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
 background: #ffffff;
@@ -310,9 +312,9 @@ background: #ffffff;
 }
 
  .logo {
-   width: 200px;
-   height: auto;
-   margin-top: 50px;
+   width: 10%;
+   margin-top: 70px;
+	 margin-bottom: 25px;
  }
 h1,
 h2,
@@ -320,12 +322,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Raleway';
+	font-family: 'Pontano Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 p {
   line-height: 1.75;
-  font-family: 'Montserrat', sans-serif;
+	font-family: 'Pontano Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .text-faded {
@@ -342,8 +346,13 @@ p {
 }
 
 #mainNav {
-  font-family: 'Raleway';
   padding-bottom: 0px;
+}
+.nav-link {
+	font-size: 12px;
+	font-weight: lighter;
+	font-family: 'Pontano Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #mainNav .navbar-brand {
@@ -352,7 +361,7 @@ p {
 
 #mainNav .navbar-nav .navbar-right  .nav-item .nav-link {
   color: #333333;
-  font-weight: 800;
+
 	text-transform: lowercase;
 }
 
@@ -366,8 +375,8 @@ p {
 #site-navigation .navbar {
 	display: flex;
 	text-align: center;
-	margin-left:25%;
-	margin-right:30%;
+	margin-left:27%;
+	margin-right:33%;
 	padding: none;
 
 	flex: auto;
@@ -379,7 +388,7 @@ p {
 }
 #site-navigation .nav-link {
 	color: black;
-	font-weight: 500;
+
 }
 
 @media (min-width: 992px) {
@@ -414,6 +423,10 @@ p {
 	margin-left: 20%;
 	margin-right: 20%;
 	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.multi-item-example {
+	padding-bottom: 0px;
 }
 @media (min-width: 768px) {
 .carousel-multi-item-2 .col-md-3 {
@@ -526,7 +539,6 @@ border-radius: 2px;
 }
 /****** GALLERY ****/
 .gallery {
- margin: 10px;
 -webkit-column-count: 3;
 -moz-column-count: 3;
 column-count: 3;
@@ -536,8 +548,8 @@ column-width: 33%; }
 .gallery .pics {
 -webkit-transition: all 350ms ease;
 max-width: 70%;
-padding: 10px;
-margin: 40px;
+padding: 0px;
+margin: 0px;
 transition: all 350ms ease; }
 
 
@@ -568,12 +580,13 @@ padding-right: 1.1rem;
 	margin-left:250px;
 	margin-right:200px;
 	margin-top:50px;
-  margin-bottom:100px;
+  margin-bottom:0px;
+	padding-bottom: 0px;
   background: none;
   border: none;
 }
 .card-bodycon {
-  padding-top: 20%;
+  padding-top: 0px;
   padding-bottom: 0px;
   padding-left: 20px;
   padding-right: 0px;
@@ -602,11 +615,12 @@ ul {
 .footer{
     height: auto;
     width: 100%;
-		padding-bottom: none;
+		margin: 0px;
     position: sticky;
+		padding: 0px;
 }
 .icon{
-  width: 80%;
+  width: 75%;
   height: auto;
   margin-top: 0px;
 }
@@ -621,6 +635,11 @@ ul {
 
 .head-foot a {
     color:#333333;
+		font-size: 12px;
+		font-weight: lighter;
+		text-align: right;
+		font-family: 'Pontano Sans', sans-serif;
+		font-family: 'Open Sans', sans-serif;
 }
 
 .head-foot a:hover {
@@ -630,13 +649,6 @@ ul {
 .head-foot p {
     text-align: right;
     margin-top: 0px;
-    color: #333333;
-}
-
-.head-foot a {
-    text-align: right;
-    margin-top: 0px;
-    font-family: 'Raleway';
     color: #333333;
 }
 .head-foot2 p {
@@ -657,9 +669,9 @@ ul {
 .head-news a:hover {
     color: #E7E8EA ;
 }
-.copyright {
-	background: black;
-	margin-bottom: 0px;
+.foo {
+	padding: 0px;
+	margin: 0px;
 }
 .footer {
 	padding-top: 0px;

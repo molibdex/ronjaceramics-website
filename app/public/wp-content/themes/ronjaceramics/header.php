@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Pontano+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
@@ -34,7 +34,7 @@
 
 	<header id="masthead" class="site-header">
 
-<img class="mx-auto d-block logo img-fluid" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logotrans.png">
+<img class="mx-auto d-block logo img-fluid" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logostrans.png">
 		<nav id="site-navigation" class="main-navigation nav navbar nav-item">
 
 			<?php /* Primary navigation */

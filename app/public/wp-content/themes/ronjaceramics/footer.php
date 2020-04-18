@@ -14,40 +14,40 @@
 
 <?php wp_footer(); ?>
 <!-- Footer -->
-    <div class="mt-5 pt-5 pb-5 footer nopadding">
-        <div class="container">
-            <div class="row nopadding ">
-                <!-- pusty DIV -->
-                <div class="col-lg-5  icons">
-                  <ul class="row">
-                    <li class="col-xs-6 col-sm-2">
-                      <a href="https://www.facebook.com/Ronja-Ceramics-630755160690711/">
-                        <img class="icon smedia " src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/fb.png">
-                      </a>
-                    </li>
-                    <li class="col-xs-6 col-sm-2">
-                      <a href="https://www.instagram.com/ronja_ceramics/">
-                        <img class="icon smedia" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/insta.png">
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <ul>
-                    <li>
-                      <p class="head-foot"><a href="#">POLITYKA PRYWATNOŚCI</a>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="#">REGULAMIN</a>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="#">ZWROTY</a></p>
-                    </li>
-
-
-                <!-- koniec pusty DIV -->
-
-
+<div class="mt-5 pt-5 pb-5 footer foo">
+    <div class="container">
+        <div class="row nopadding ">
+            <!-- pusty DIV -->
+            <div class="col-lg-5  icons">
+              <ul class="row">
+                <li class="col-xs-6 col-sm-2">
+                  <a href="https://www.facebook.com/Ronja-Ceramics-630755160690711/">
+                    <img class="icon smedia " src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/fb.png">
+                  </a>
+                </li>
+                <li class="col-xs-6 col-sm-2">
+                  <a href="https://www.instagram.com/ronja_ceramics/">
+                    <img class="icon smedia" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/icons/insta.png">
+                  </a>
+                </li>
+              </ul>
             </div>
+            <ul>
+                <li>
+                  <p class="head-foot"><a href="#">POLITYKA PRYWATNOŚCI</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#">REGULAMIN</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#">ZWROTY</a></p>
+                </li>
+
+
+            <!-- koniec pusty DIV -->
+
+
         </div>
     </div>
+</div>
     <!--KONIEC Footera -->
 <!-- Bootstrap core JavaScript -->
 
