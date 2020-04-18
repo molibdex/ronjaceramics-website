@@ -443,23 +443,38 @@ border-radius: 2px;
 /**** ABOUT US ****/
 .cardus {
   padding: 0 !important;
-  margin: 100px;
+	margin-left: 150px;
+  margin-right: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
   background: none;
-  border: none;
+  border: 5px;
+	text-align: justify;
+}
+
+.onr{
+	width:45%;
+
+	padding: 0px;
 }
 
 .card-body {
-  padding-top: 0px;
+  padding: 0px;
   padding-bottom: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
+  margin: 0px;
 }
+
 
 .card-body p {
   font-size: 17px;
 	font-family: 'Pontano Sans', sans-serif;
 	font-family: 'Open Sans', sans-serif;
 	text-align: justify;
+	margin-top: 0px;
+}
+.card-text p {
+	padding: 0px;
+	margin: 0px
 }
 
 @media (max-width: 1000px) {
