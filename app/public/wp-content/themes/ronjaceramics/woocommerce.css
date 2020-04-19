@@ -162,7 +162,8 @@ ul.products li.product .button {
 }
 
 .single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger {
-	position: absolute;
+	position:absolute;
+
 	top: 1em;
 	right: 1em;
 	display: block;
@@ -594,26 +595,72 @@ p.no-comments {
 	font-family: 'Pontano Sans', sans-serif;
 	font-family: 'Open Sans', sans-serif;
 }
+/**
+ * single product
+ */
+
 .woocommerce-product-gallery__wrapper {
 	float: left;
-	margin-right: 40px;
+	margin-right: 10px;
+}
+.woocommerce-product-gallery__image {
+	margin: 10px;
 }
 .woocommerce-product-gallery__wrapper img {
 	width: 75%;
 	height: 75%;
-
 
 }
 .product {
 	margin-left: 100px;
 	margin-right: 100px;
 }
+.single_add_to_cart_button  {
+	font-size: 10;
+}
+.single_add_to_cart_button {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:transparent;
+	border:1px solid #333333;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family: 'Pontano Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.single_add_to_cart_button:hover {
+	background-color:transparent;
+}
+.single_add_to_cart_button:active {
+	position:relative;
+	top:1px;
+}
 
+.input-text {
+	float: left;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:transparent;
+	margin-right: 5px;
+	border:1px solid #333333;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family: 'Pontano Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
 .amount {
 	font-size: 1rem;
 	color: #333333;
-	margin-left: 10%;
-	margin-right: 10%
 }
 
 .add_to_cart_button {
@@ -621,6 +668,15 @@ p.no-comments {
 	margin-left: 10%;
 	margin-right: 10%
 }
+.single-product .product_title{
+	font-size:20px !important;
+	font-weight: bold;
+ }
+ .single-product-page .product-info .short-description p {
+     font-family: open sans !important;
+     font-size: 5px !important;
+     color: red !important;
+ }
 
 .woocommerce-result-count {
 	display: none;
