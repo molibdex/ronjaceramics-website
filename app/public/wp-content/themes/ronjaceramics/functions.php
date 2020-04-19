@@ -187,3 +187,13 @@ add_action( 'wp_enqueue_scripts', 'wpt_register_css' );
 
 // Register custom navigation walker
     require_once('wp_bootstrap_navwalker.php');
+
+
+		function funkcja_dodawania_javascript() {
+		?>
+		<script>
+		$(function () {
+		$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+		</script>
+		<?php
+		}
