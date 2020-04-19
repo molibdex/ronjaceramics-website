@@ -377,7 +377,7 @@ p {
 	display: flex;
 	text-align: center;
 	margin-left:27%;
-	margin-right:33%;
+	margin-right:36%;
 	padding: none;
 
 	flex: auto;
@@ -450,7 +450,6 @@ border-radius: 2px;
 	margin-bottom: 55px;
   background: none;
 	text-align: justify;
-	
 	font-size: 12px;
 }
 .onr{
@@ -635,14 +634,13 @@ ul {
 .footer{
     height: auto;
     width: 100%;
-		padding-top: 1000px;
     position: sticky;
 		padding: 0px;
 }
 .icon{
-  width: 75%;
+  width: 35px;
+	display: flex;
   height: auto;
-
 }
 
 .author {
@@ -695,19 +693,15 @@ ul {
 }
 
 @media (max-width: 575px) {
-  img.smedia {
-    width: 50px;
-    display: inline;
-		flex: auto;
-   }
+
 	 .head-foot a {
 		 	font-family: 'Pontano Sans', sans-serif;
 			font-family: 'Open Sans', sans-serif;
 	    color: #333333;
 	    font-weight: 600;
 			font-size: 14px;
-
 	 }
+
 }
 
 .connect  {
