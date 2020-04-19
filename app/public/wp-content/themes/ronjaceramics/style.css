@@ -312,10 +312,11 @@ background: #ffffff;
 }
 
  .logo {
-   width: 8%;
+   width: 100px;
    margin-top: 70px;
 	 margin-bottom: 25px;
  }
+
 h1,
 h2,
 h3,
@@ -442,20 +443,20 @@ border-radius: 2px;
 
 /**** ABOUT US ****/
 .cardus {
-  padding: 0 !important;
-	margin-left: 150px;
-  margin-right: 150px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+  padding: 0;
+	margin-left: 275px;
+  margin-right: 275px;
+	margin-top: 40px;
+	margin-bottom: 55px;
   background: none;
-  border: 5px;
 	text-align: justify;
+	
+	font-size: 12px;
 }
-
 .onr{
-	width:45%;
-
+	width: 400px;
 	padding: 0px;
+	margin: 0px;
 }
 
 .card-body {
@@ -466,7 +467,7 @@ border-radius: 2px;
 
 
 .card-body p {
-  font-size: 17px;
+
 	font-family: 'Pontano Sans', sans-serif;
 	font-family: 'Open Sans', sans-serif;
 	text-align: justify;
@@ -474,16 +475,18 @@ border-radius: 2px;
 }
 .card-text p {
 	padding: 0px;
-	margin: 0px
+	margin: 0px;
+
 }
 
 @media (max-width: 1000px) {
   .cardus {
     margin: 5px;
     font-size: 11px;
+		display: block;
   }
 
-  .about {
+  .card-body p {
     display: inline-block;
     margin-right: 5px;
     margin-top: 5px;
