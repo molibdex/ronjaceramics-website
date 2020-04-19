@@ -22,250 +22,69 @@ $photo_B08 = get_field('photo_B08');
 $photo_B09 = get_field('photo_B09');
 
 get_header(); ?>
-
-<!-- Grid row -->
-<div class="gallery" id="gallery">
-
-<!-- Grid column -->
-<div class="mb-3 pics animation all 2">
-  <!-- If user uplodaed an image -->
-  <?php if( !empty ($photo_A01)) : ?>
-    <img class="img-fluid" src="<?php echo $photo_A01['url']; ?>" alt="<?php echo $photo_A01['alt']; ?>">
-  <?php endif; ?>
-</div>
-<!-- Grid column -->
-
-<!-- Grid column -->
-<div class="mb-3 pics animation all 1">
-  <!-- If user uplodaed an image -->
-  <?php if( !empty ($photo_A02)) : ?>
-    <img class="img-fluid" src="<?php echo $photo_A02['url']; ?>" alt="<?php echo $photo_A02['alt']; ?>">
-  <?php endif; ?>
-
-</div>
-<!-- Grid column -->
-
-<!-- Grid column -->
-<div class="mb-3 pics animation all 1">
-  <!-- If user uplodaed an image -->
-  <?php if( !empty ($photo_A03)) : ?>
-    <img class="img-fluid" src="<?php echo $photo_A03['url']; ?>" alt="<?php echo $photo_A03['alt']; ?>">
-  <?php endif; ?>
-
-</div>
-<!-- Grid column -->
-
-<!-- Grid column -->
-<div class="mb-3 pics animation all 2">
-  <!-- If user uplodaed an image -->
-  <?php if( !empty ($photo_A04)) : ?>
-    <img class="img-fluid" src="<?php echo $photo_A04['url']; ?>" alt="<?php echo $photo_A04['alt']; ?>">
-  <?php endif; ?>
-</div>
-<!-- Grid column -->
-
-<!-- Grid column -->
-<div class="mb-3 pics animation all 2">
-  <!-- If user uplodaed an image -->
-  <?php if( !empty ($photo_A05)) : ?>
-    <img class="img-fluid" src="<?php echo $photo_A05['url']; ?>" alt="<?php echo $photo_A05['alt']; ?>">
-  <?php endif; ?>
-</div>
-<!-- Grid column -->
-
-<!-- Grid column -->
-<div class="mb-3 pics animation all 1">
-  <!-- If user uplodaed an image -->
-  <?php if( !empty ($photo_A06)) : ?>
-    <img class="img-fluid" src="<?php echo $photo_A06['url']; ?>" alt="<?php echo $photo_A06['alt']; ?>">
-  <?php endif; ?>
-</div>
-<!-- Grid column -->
-
-<!-- Grid column -->
-<div class="mb-3 pics animation all 1">
-  <!-- If user uplodaed an image -->
-  <?php if( !empty ($photo_A07)) : ?>
-    <img class="img-fluid" src="<?php echo $photo_A07['url']; ?>" alt="<?php echo $photo_A07['alt']; ?>">
-  <?php endif; ?>
-</div>
-<!-- Grid column -->
-
-<!-- Grid column -->
-<div class="mb-3 pics animation all 1">
-  <!-- If user uplodaed an image -->
-  <?php if( !empty ($photo_A08)) : ?>
-    <img class="img-fluid" src="<?php echo $photo_A08['url']; ?>" alt="<?php echo $photo_A08['alt']; ?>">
-  <?php endif; ?>
-</div>
-<!-- Grid column -->
-
-<!-- Grid column -->
-<div class="mb-3 pics animation all 1">
-  <!-- If user uplodaed an image -->
-  <?php if( !empty ($photo_A09)) : ?>
-    <img class="img-fluid" src="<?php echo $photo_A09['url']; ?>" alt="<?php echo $photo_A09['alt']; ?>">
-  <?php endif; ?>
-</div>
-<!-- Grid column -->
-
-</div>
-<!-- SECOND GALLERY -->
-
-<div class="gallery" id="gallery">
-
-  <!-- Grid column -->
-  <div class="mb-3 pics animation all 1">
-    <!-- If user uplodaed an image -->
-    <?php if( !empty ($photo_B01)) : ?>
-      <img class="img-fluid" src="<?php echo $photo_B01['url']; ?>" alt="<?php echo $photo_B01['alt']; ?>">
-    <?php endif; ?>
-  </div>
-  <!-- Grid column -->
-
-  <!-- Grid column -->
-  <div class="mb-3 pics animation all 1">
-    <!-- If user uplodaed an image -->
-    <?php if( !empty ($photo_B02)) : ?>
-      <img class="img-fluid" src="<?php echo $photo_B02['url']; ?>" alt="<?php echo $photo_B02['alt']; ?>">
-    <?php endif; ?>
-  </div>
-  <!-- Grid column -->
-
-  <!-- Grid column -->
-  <div class="mb-3 pics animation all 1">
-    <!-- If user uplodaed an image -->
-    <?php if( !empty ($photo_B03)) : ?>
-      <img class="img-fluid" src="<?php echo $photo_B03['url']; ?>" alt="<?php echo $photo_B03['alt']; ?>">
-    <?php endif; ?>
-  </div>
-  <!-- Grid column -->
-
-  <!-- Grid column -->
-  <div class="mb-3 pics animation all 1">
-    <!-- If user uplodaed an image -->
-    <?php if( !empty ($photo_B04)) : ?>
-      <img class="img-fluid" src="<?php echo $photo_B04['url']; ?>" alt="<?php echo $photo_B04['alt']; ?>">
-    <?php endif; ?>
-  </div>
-  <!-- Grid column -->
-
-  <!-- Grid column -->
-  <div class="mb-3 pics animation all 1">
-    <!-- If user uplodaed an image -->
-    <?php if( !empty ($photo_B05)) : ?>
-      <img class="img-fluid" src="<?php echo $photo_B05['url']; ?>" alt="<?php echo $photo_B05['alt']; ?>">
-    <?php endif; ?>
-  </div>
-  <!-- Grid column -->
-
-  <!-- Grid column -->
-  <div class="mb-3 pics animation all 1">
-    <!-- If user uplodaed an image -->
-    <?php if( !empty ($photo_B06)) : ?>
-      <img class="img-fluid" src="<?php echo $photo_B06['url']; ?>" alt="<?php echo $photo_B06['alt']; ?>">
-    <?php endif; ?>
-  </div>
-  <!-- Grid column -->
-
-  <!-- Grid column -->
-  <div class="mb-3 pics animation all 1">
-    <!-- If user uplodaed an image -->
-    <?php if( !empty ($photo_B07)) : ?>
-      <img class="img-fluid" src="<?php echo $photo_B07['url']; ?>" alt="<?php echo $photo_B07['alt']; ?>">
-    <?php endif; ?>
-  </div>
-  <!-- Grid column -->
-
-  <!-- Grid column -->
-  <div class="mb-3 pics animation all 1">
-    <!-- If user uplodaed an image -->
-    <?php if( !empty ($photo_B08)) : ?>
-      <img class="img-fluid" src="<?php echo $photo_B08['url']; ?>" alt="<?php echo $photo_B08['alt']; ?>">
-    <?php endif; ?>
-  </div>
-  <!-- Grid column -->
-
-  <!-- Grid column -->
-  <div class="mb-3 pics animation all 1">
-    <!-- If user uplodaed an image -->
-    <?php if( !empty ($photo_B09)) : ?>
-      <img class="img-fluid" src="<?php echo $photo_B09['url']; ?>" alt="<?php echo $photo_B09['alt']; ?>">
-    <?php endif; ?>
-  </div>
-  <!-- Grid column -->
-
-</div>
-<!-- Grid row -->
-
-
-
-
-
-
-
+<div class= "gallery">
 <div class="container page-top">
 
      <div class="row">
 
         <?php if( !empty ($photo_A01)) : ?>
-         <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+         <div class="col-lg-3 col-md-3 col-xs-6 thumb">
              <a href="<?php echo $photo_A01['url']; ?>" class="fancybox" rel="ligthbox">
                  <img class="img-fluid zoom" src="<?php echo $photo_A01['url']; ?>" alt="<?php echo $photo_A01['alt']; ?>">
              </a>
          </div>
          <?php endif; ?>
          <?php if( !empty ($photo_A02)) : ?>
-          <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+          <div class="col-lg-3 col-md-3 col-xs-6 thumb">
               <a href="<?php echo $photo_A02['url']; ?>" class="fancybox" rel="ligthbox">
                   <img class="img-fluid zoom" src="<?php echo $photo_A02['url']; ?>" alt="<?php echo $photo_A02['alt']; ?>">
               </a>
           </div>
           <?php endif; ?>
           <?php if( !empty ($photo_A03)) : ?>
-           <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+           <div class="col-lg-3 col-md-3 col-xs-6 thumb">
                <a href="<?php echo $photo_A03['url']; ?>" class="fancybox" rel="ligthbox">
                    <img class="img-fluid zoom" src="<?php echo $photo_A03['url']; ?>" alt="<?php echo $photo_A03['alt']; ?>">
                </a>
            </div>
            <?php endif; ?>
            <?php if( !empty ($photo_A04)) : ?>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div class="col-lg-3 col-md-3 col-xs-6 thumb">
                 <a href="<?php echo $photo_A04['url']; ?>" class="fancybox" rel="ligthbox">
                     <img class="img-fluid zoom" src="<?php echo $photo_A04['url']; ?>" alt="<?php echo $photo_A04['alt']; ?>">
                 </a>
             </div>
             <?php endif; ?>
             <?php if( !empty ($photo_A05)) : ?>
-             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+             <div class="col-lg-3 col-md-3 col-xs-6 thumb">
                  <a href="<?php echo $photo_A05['url']; ?>" class="fancybox" rel="ligthbox">
                      <img class="img-fluid zoom" src="<?php echo $photo_A05['url']; ?>" alt="<?php echo $photo_A05['alt']; ?>">
                  </a>
              </div>
              <?php endif; ?>
              <?php if( !empty ($photo_A06)) : ?>
-              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+              <div class="col-lg-3 col-md-3 col-xs-6 thumb">
                   <a href="<?php echo $photo_A06['url']; ?>" class="fancybox" rel="ligthbox">
                       <img class="img-fluid zoom" src="<?php echo $photo_A06['url']; ?>" alt="<?php echo $photo_A06['alt']; ?>">
                   </a>
               </div>
               <?php endif; ?>
               <?php if( !empty ($photo_A07)) : ?>
-               <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+               <div class="col-lg-3 col-md-3 col-xs-6 thumb">
                    <a href="<?php echo $photo_A07['url']; ?>" class="fancybox" rel="ligthbox">
                        <img class="img-fluid zoom" src="<?php echo $photo_A07['url']; ?>" alt="<?php echo $photo_A07['alt']; ?>">
                    </a>
                </div>
                <?php endif; ?>
                <?php if( !empty ($photo_A08)) : ?>
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <div class="col-lg-3 col-md-3 col-xs-6 thumb">
                     <a href="<?php echo $photo_A08['url']; ?>" class="fancybox" rel="ligthbox">
                         <img class="img-fluid zoom" src="<?php echo $photo_A08['url']; ?>" alt="<?php echo $photo_A08['alt']; ?>">
                     </a>
                 </div>
                 <?php endif; ?>
                 <?php if( !empty ($photo_A09)) : ?>
-                 <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                 <div class="col-lg-3 col-md-3 col-xs-6 thumb">
                      <a href="<?php echo $photo_A09['url']; ?>" class="fancybox" rel="ligthbox">
                          <img class="img-fluid zoom" src="<?php echo $photo_A09['url']; ?>" alt="<?php echo $photo_A09['alt']; ?>">
                      </a>
@@ -340,4 +159,10 @@ get_header(); ?>
                      </div>
                      <?php endif; ?>
         </div>
+      </div>
+      <div>
+        <br>
+        <br>
+        <br>
+        <div>
 <?php get_footer(); ?>
